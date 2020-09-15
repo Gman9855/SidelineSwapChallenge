@@ -8,10 +8,10 @@ import Foundation
 
 struct Paging: Codable {
 
-	let totalCount: Int
-	let totalCountTruncated: Bool
-	let totalPages: Int
-	let pageSize: Int
+	let totalCount: Int?
+	let totalCountTruncated: Bool?
+	let totalPages: Int?
+	let pageSize: Int?
 	let page: Int
 	let hasNextPage: Bool
 

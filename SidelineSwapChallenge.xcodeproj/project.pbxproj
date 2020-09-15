@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7C53CB2E250EACE200F44D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CB2D250EACE200F44D15 /* AppDelegate.swift */; };
 		7C53CB30250EACE200F44D15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CB2F250EACE200F44D15 /* SceneDelegate.swift */; };
-		7C53CB32250EACE200F44D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CB31250EACE200F44D15 /* ViewController.swift */; };
+		7C53CB32250EACE200F44D15 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CB31250EACE200F44D15 /* ItemListViewController.swift */; };
 		7C53CB35250EACE200F44D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C53CB33250EACE200F44D15 /* Main.storyboard */; };
 		7C53CB37250EACE600F44D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C53CB36250EACE600F44D15 /* Assets.xcassets */; };
 		7C53CB3A250EACE600F44D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C53CB38250EACE600F44D15 /* LaunchScreen.storyboard */; };
@@ -26,13 +26,16 @@
 		7C53CB58250EB6EC00F44D15 /* PrimaryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CB4D250EB6EC00F44D15 /* PrimaryImage.swift */; };
 		7C53CB59250EB6EC00F44D15 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CB4E250EB6EC00F44D15 /* Categories.swift */; };
 		7C53CB5B250ECDD800F44D15 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53CB5A250ECDD800F44D15 /* ItemCollectionViewCell.swift */; };
+		E0F31715578AB9D836976DFE /* Pods_SidelineSwapChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273DAE8F86E124B77D374662 /* Pods_SidelineSwapChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		273DAE8F86E124B77D374662 /* Pods_SidelineSwapChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidelineSwapChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5777B62EB9200C9C6A0DDB06 /* Pods-SidelineSwapChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidelineSwapChallenge.debug.xcconfig"; path = "Target Support Files/Pods-SidelineSwapChallenge/Pods-SidelineSwapChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		7C53CB2A250EACE200F44D15 /* SidelineSwapChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidelineSwapChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C53CB2D250EACE200F44D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C53CB2F250EACE200F44D15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C53CB31250EACE200F44D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C53CB31250EACE200F44D15 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		7C53CB34250EACE200F44D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C53CB36250EACE600F44D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C53CB39250EACE600F44D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		7C53CB4D250EB6EC00F44D15 /* PrimaryImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryImage.swift; sourceTree = "<group>"; };
 		7C53CB4E250EB6EC00F44D15 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		7C53CB5A250ECDD800F44D15 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		DDC4F9C8AC9CF3232BC6E3C8 /* Pods-SidelineSwapChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidelineSwapChallenge.release.xcconfig"; path = "Target Support Files/Pods-SidelineSwapChallenge/Pods-SidelineSwapChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F31715578AB9D836976DFE /* Pods_SidelineSwapChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1F551FF76E5A548164D43B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				273DAE8F86E124B77D374662 /* Pods_SidelineSwapChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		414539594E4BFA21A5FE2621 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5777B62EB9200C9C6A0DDB06 /* Pods-SidelineSwapChallenge.debug.xcconfig */,
+				DDC4F9C8AC9CF3232BC6E3C8 /* Pods-SidelineSwapChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7C53CB21250EACE200F44D15 = {
 			isa = PBXGroup;
 			children = (
 				7C53CB2C250EACE200F44D15 /* SidelineSwapChallenge */,
 				7C53CB2B250EACE200F44D15 /* Products */,
+				414539594E4BFA21A5FE2621 /* Pods */,
+				0B1F551FF76E5A548164D43B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,11 +106,11 @@
 		7C53CB2C250EACE200F44D15 /* SidelineSwapChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				7C53CB43250EB6DD00F44D15 /* Model */,
 				7C53CB2D250EACE200F44D15 /* AppDelegate.swift */,
 				7C53CB41250EAE4400F44D15 /* SidelineSwapAPI.swift */,
-				7C53CB43250EB6DD00F44D15 /* Model */,
 				7C53CB2F250EACE200F44D15 /* SceneDelegate.swift */,
-				7C53CB31250EACE200F44D15 /* ViewController.swift */,
+				7C53CB31250EACE200F44D15 /* ItemListViewController.swift */,
 				7C53CB5A250ECDD800F44D15 /* ItemCollectionViewCell.swift */,
 				7C53CB33250EACE200F44D15 /* Main.storyboard */,
 				7C53CB36250EACE600F44D15 /* Assets.xcassets */,
@@ -121,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C53CB3E250EACE600F44D15 /* Build configuration list for PBXNativeTarget "SidelineSwapChallenge" */;
 			buildPhases = (
+				9D31635B8B8CCB58242EAE81 /* [CP] Check Pods Manifest.lock */,
 				7C53CB26250EACE200F44D15 /* Sources */,
 				7C53CB27250EACE200F44D15 /* Frameworks */,
 				7C53CB28250EACE200F44D15 /* Resources */,
+				660D1B8FB730C5AFB8E79C39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,13 +206,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		660D1B8FB730C5AFB8E79C39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapChallenge/Pods-SidelineSwapChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapChallenge/Pods-SidelineSwapChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapChallenge/Pods-SidelineSwapChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D31635B8B8CCB58242EAE81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SidelineSwapChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C53CB26250EACE200F44D15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C53CB50250EB6EC00F44D15 /* Children.swift in Sources */,
-				7C53CB32250EACE200F44D15 /* ViewController.swift in Sources */,
+				7C53CB32250EACE200F44D15 /* ItemListViewController.swift in Sources */,
 				7C53CB59250EB6EC00F44D15 /* Categories.swift in Sources */,
 				7C53CB2E250EACE200F44D15 /* AppDelegate.swift in Sources */,
 				7C53CB42250EAE4400F44D15 /* SidelineSwapAPI.swift in Sources */,
@@ -342,6 +410,7 @@
 		};
 		7C53CB3F250EACE600F44D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5777B62EB9200C9C6A0DDB06 /* Pods-SidelineSwapChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,6 +429,7 @@
 		};
 		7C53CB40250EACE600F44D15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC4F9C8AC9CF3232BC6E3C8 /* Pods-SidelineSwapChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

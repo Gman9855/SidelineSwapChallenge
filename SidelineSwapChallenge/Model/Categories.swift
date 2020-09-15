@@ -17,7 +17,7 @@ struct Categories: Codable {
 	let showPopularModels: Bool
 	let iconUrl: String?
 	let imageUrl: String?
-	let hasModels: Bool
+	let hasModels: Bool?
 	let titleName: String?
 	let url: String?
 
