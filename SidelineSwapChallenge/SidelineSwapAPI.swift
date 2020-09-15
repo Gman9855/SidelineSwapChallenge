@@ -12,7 +12,7 @@ class SidelineSwapAPI {
     
     private let baseURL = "https://api.staging.sidelineswap.com/v1/"
     
-    func getItems(searchTerm: String, page: Int, result: @escaping ([Item]) -> ()) {
+    func getItems(searchTerm: String, page: Int, result: @escaping ([Item]?, Error?, Paging?) -> ()) {
         var urlComponents = URLComponents(string: baseURL + "/facet_items")!
         urlComponents.queryItems = [
             URLQueryItem(name: "q", value: searchTerm),
@@ -20,14 +20,16 @@ class SidelineSwapAPI {
         ]
         let request = URLRequest(url: urlComponents.url!)
         let task = URLSession.shared.dataTask(with: request) { (data, urlResponse, error) in
-            //
+
             guard let data = data else {
+                result(nil, error, nil)
                 return
             }
             do {
                 let root = try JSONDecoder().decode(RootClass.self, from: data)
-                result(root.items)
+                result(root.items, nil, root.meta.paging)
             } catch {
+                result(nil, error, nil)
                 print(error)
             }
         }
